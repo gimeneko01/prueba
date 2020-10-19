@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Menu 3 estrella -->
+    <item
+        android:id="@+id/icon_estrella"
+        android:title="Estrellas"
+        android:icon="@drawable/icons8_hotel_de_5_estrellas_90"
+        app:showAsAction="ifRoom"
+        />
+
+    <!-- Menu 3 puntos -->
+    <item
+        android:id="@+id/mContacto"
+        android:title="@string/menu_contacto"
+        android:orderInCategory="100"
+
+        />
+
+    <item
+        android:id="@+id/mAcercaDe"
+        android:title="@string/menu_acerca_de"
+        android:orderInCategory="101"
+        
+        />
+
+</menu>

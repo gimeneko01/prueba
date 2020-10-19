@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--marginBottom para una separación
+padding separación-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMacota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/separación_vertical"
+    app:cardCornerRadius="@dimen/corner_radius_cardview"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+dp        <ImageView
+            android:id="@+id/imgFotoCV"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/dalmata"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!--Boton Likes-->
+            <ImageButton
+                android:id="@+id/imgIcono1CV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icons8_hueso_del_perro_100"
+                />
+
+
+            <TextView
+            android:id="@+id/tvNombreCV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pnombre"
+            android:textSize="@dimen/nombre_cardview"
+            android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+            />
+
+            <ImageView
+                android:id="@+id/imgIcono2CV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:src="@drawable/icons8_hueso_del_perro_101"
+                android:layout_marginLeft="@dimen/separación"/>
+
+            <!--Numero de likes-->
+            <TextView
+                android:id="@+id/tvNumeroCV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:textSize="@dimen/nombre_cardview"
+                android:textStyle="bold"
+                android:text="numero" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

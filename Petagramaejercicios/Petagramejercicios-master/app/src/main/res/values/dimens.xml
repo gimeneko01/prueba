@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="separación_vertical">16dp</dimen>
+    <dimen name="corner_radius_cardview">4dp</dimen>
+    <dimen name="nombre_cardview">20sp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="separación">110dp</dimen>
+    <dimen name="EspacioBotones1">60dp</dimen>
+    <dimen name="Botones">17dp</dimen>
+    <dimen name="AcercaDe">20dp</dimen>
+
+
+</resources>

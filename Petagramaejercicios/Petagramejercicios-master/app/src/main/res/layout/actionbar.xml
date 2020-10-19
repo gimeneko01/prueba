@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- action bar con stilo material design android:theme, app:popupTheme , elevation y  color-->
+<!-- propiedad scroll para que se oculte el toolbar-->
+
+<androidx.appcompat.widget.Toolbar
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_actionbar"
+    android:theme="@style/AppThemeCustomToolbar"
+    app:popupTheme="@style/AppThemeCustomMenuToolbar"
+    app:titleTextColor="@color/colorTextoIconos"
+
+    />
+

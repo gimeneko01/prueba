@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- eliminado el action Bar -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!-- Personaliza tu tema ToolBar aquí -->
+    <style  name = "AppThemeCustomToolbar"  parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <!-- Personaliza tu tema aquí-->
+        <item  name="android:textSize">18sp</item>
+        <item  name="android:textStyle">italic</item>
+        <!-- colorControlNormal es el color del texto del título en la barra de herramientas   -->
+        <item  name="colorControlNormal">@color/colorTextoIconos</item>
+        <!-- actionMenuTextColor es el color del texto de los elementos de acción (menú)   -->
+        <item  name="actionMenuTextColor"> @color/colorTextoIconos</item>
+    </style>
+
+    <!-- Personaliza tu ToolBar Menú Elemento Tema -->
+    <style  name = "AppThemeCustomMenuToolbar"  parent = "ThemeOverlay.AppCompat.Light" >
+        <item  name="overlapAnchor">false</item>
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <dimen name="activity_vertical_space">12dp</dimen>
+    <dimen name="activity_vertical_footer">30dp</dimen>
+    <dimen name="paddigBottonCustom">16dp</dimen>
+    <dimen name="titleName">30dp</dimen>
+    <dimen name="titleName32">32dp</dimen>
+    <dimen name="titleName28">28dp</dimen>
+    <dimen name="titleName26">26dp</dimen>
+    <dimen name="titleName24">24dp</dimen>
+    <dimen name="titleName20">20dp</dimen>
+    <dimen name="titleName18">18dp</dimen>
+    <dimen name="textField">20dp</dimen>
+    <dimen name="textCommon">16dp</dimen>
+
+    <dimen name="calendarH">215dp</dimen>
+</resources>

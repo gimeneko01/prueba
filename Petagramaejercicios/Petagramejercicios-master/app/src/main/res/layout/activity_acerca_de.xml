@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/AcercaDe"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:text="Edisson Ibarra nacido el 13 de Agosto de 1994, en Ecuador, es Ingeniero en Electrónica y Comunicaciones y desarrollador de aplicaciones moviles"></TextView>
+
+</LinearLayout>

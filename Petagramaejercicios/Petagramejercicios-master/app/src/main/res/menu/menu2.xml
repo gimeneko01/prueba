@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/icon_estrella"
+        android:icon="@drawable/icons8_huella_de_perro_64"
+        android:title="Estrellas"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/icon_puntos"
+        android:title="Proximamente"
+        app:showAsAction="never"
+        />
+
+
+</menu>

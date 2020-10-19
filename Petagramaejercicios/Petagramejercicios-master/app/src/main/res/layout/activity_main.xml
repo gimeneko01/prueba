@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--coordinator layout con tab y view pager añadido efectos-->
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+
+   <com.google.android.material.appbar.AppBarLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:theme="@style/AppThemeCustomToolbar">
+
+<com.google.android.material.appbar.CollapsingToolbarLayout
+    android:id="@+id/miCol"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_scrollFlags="scroll|enterAlways">
+
+
+       <androidx.appcompat.widget.Toolbar
+       android:id="@+id/miActionbar"
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize"
+       android:background="@color/colorPrimary"
+       android:elevation="@dimen/elevacion_actionbar"
+       android:theme="@style/AppThemeCustomToolbar"
+       app:popupTheme="@style/AppThemeCustomMenuToolbar"
+       app:titleTextColor="@color/colorTextoIconos"
+           app:layout_collapseMode="pin">
+
+
+           <!--cambiar centerHorizontal por android:layout_marginRight="35dp"-->
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginRight="35dp"
+               android:textSize="25dp"
+               android:text="Petagram">
+
+           </TextView>
+       </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.CollapsingToolbarLayout>
+
+       <com.google.android.material.tabs.TabLayout
+           android:id="@+id/tabLayout"
+           android:theme="@style/AppThemeCustomToolbar"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@color/colorPrimary"
+           app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+   </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end|bottom"
+    android:layout_margin="16dp"
+    app:fabSize="normal"
+    app:backgroundTint="@color/colorPrimary"
+    android:elevation="6dp"
+    android:src="@drawable/camera"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
